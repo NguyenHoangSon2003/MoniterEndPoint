@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSH Connection Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+<body>
+    <div class="form-container">
+        <h2>SSH Connection Form</h2>
+        <form action="./connect" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="host">Host:</label>
+            <input type="text" id="host" name="host" required>
+
+            <button type="submit">Connect</button>
+        </form>
+    </div>
+</body>
+</html>
