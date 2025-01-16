@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>SSHServlet</servlet-name>
+        <servlet-class>servlets.SSHServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>jsch</servlet-name>
+        <servlet-class>jsch.jsch</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>connect</servlet-name>
+        <servlet-class>kiemtra.connect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SSHServlet</servlet-name>
+        <url-pattern>/SSHServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>jsch</servlet-name>
+        <url-pattern>/jsch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>connect</servlet-name>
+        <url-pattern>/connect</url-pattern>
+    </servlet-mapping>
+</web-app>
