@@ -21,7 +21,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     --black-color: #000000;
 }
 body{
-    background-image: url(bc.jpg);
+    background-image: url(img/bc.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
